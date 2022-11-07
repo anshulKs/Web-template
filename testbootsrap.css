@@ -1,0 +1,231 @@
+.navbar-logo{
+    color: orangered;
+    height: 11vh;
+}
+.navbar-toggler{
+    background-color: orangered;
+}
+a :hover{
+    border-top:1px solid orangered;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+    color: black;
+}
+.navbar1:hover{
+    text-decoration: none;
+    color: black;
+}
+.nav-link text-dark{
+    border-top:1px solid orangered;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+
+}
+.carousel-inner-image-size{
+    width: 1100;
+    height: 500;
+}
+.carousel-inner img {
+    width:100%;
+    height:100%;
+    filter: brightness(50%);
+}
+button{
+    background-color: orangered;
+    color: white;
+}
+.carousel-container-text-heading> span{
+    border-bottom: 1px solid white;
+}
+.portfolio-container{
+    padding-top: 3%;
+}
+.portfolio-image{
+    height:250px;
+    padding:0;
+    border: 10px solid white;
+    background-image: url(uw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.portfolio-gallery{
+    padding-top: 3%;
+}
+.team-image{
+    height:250px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background-image: url(tr.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.service-image i{
+    width:100%;
+    height:100%;
+    line-height: 5em;
+    color:white;
+    font-size: 3em;
+}
+.service-image {
+    padding-top: 2%;
+}
+.services-container{
+    position: relative;
+    padding-top: 3%;
+}
+.service-image-image--cyan{
+    background-color: teal;
+}
+.service-image-image--orange{
+    background-color: orangered;
+}
+.service-image-image--blue{
+    background-color: royalblue;
+}
+.service-image-image--green{
+    background-color: limegreen;
+}
+.service-image > div{    
+    height:250px;
+    border: 10px solid white;
+}
+.team-container{
+    padding-top: 3%;
+}
+.team-gallery{
+    padding-top: 3%;
+}
+.skills-container{
+    padding-top: 3%;
+}
+.design-skills > div{
+    height: 350px;
+    font-size: small;
+}
+.design-skills-left{
+    padding-top: 3%;
+}
+.design-skills-right{
+    padding-top: 3%;
+}
+.contact-content > div{
+    height: 350px;
+    font-size: small;
+}
+.progress{
+    border-radius: 0px;
+    height:30px;
+}
+.progress-bar{
+    background-color: orangered;
+}
+.text-heading > span{
+    border-bottom: 1px solid black;
+}
+.navigation-bar{
+    padding-top: 0;
+    margin-top: 0;
+}
+}
+.contact-row-text{
+    color: orangered;
+}
+.contact-left{
+    padding-top: 3%;
+}
+footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-social i{
+    border: 2px solid white;
+    width:25px;
+    height:25px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.portfolio-image :hover .overlay {
+    opacity: 1;
+  }
+.team-image:hover .overlay1 {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+ }
+ .overlay{
+    transition: all 0.5s ease-in-out 0s;
+    position: relative;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    background-color: orangered;
+ }
+ .overlay:hover{
+    opacity: 1 ;
+    
+ }
+ .overlay1{
+    transition: all 0.5s ease-in-out 0s;
+    position: relative;
+    width:250px;
+    transform: translateX(-13px);
+    height:100%;
+    padding-left: 0;
+    opacity: 0;
+    background-color: orangered;
+    overflow: hidden;
+    
+ }
+ .overlay-heading{
+     padding-top:6%;
+     color: white;
+     text-align: center;
+ }
+ .overlay-para{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    padding-left: 7%;
+ }
+ .search-icon{
+     padding-left: 50%;
+ }
+ .social{
+     list-style-type: none;
+     display: flex;
+     justify-content:center;
+     padding-top: 50%;
+ }
+ .overlay-para1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+    padding-left: 36%;
+ }
+ .moveright{
+     padding-left: 40%;
+ }
